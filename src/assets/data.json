@@ -100,11 +100,6 @@
       "Reference": "[RFC9110, Section 15.4.6]"
     },
     {
-      "Value": "306",
-      "Description": "(Unused)",
-      "Reference": "[RFC9110, Section 15.4.7]"
-    },
-    {
       "Value": "307",
       "Description": "Temporary Redirect",
       "Reference": "[RFC9110, Section 15.4.8]"
@@ -203,11 +198,6 @@
       "Value": "417",
       "Description": "Expectation Failed",
       "Reference": "[RFC9110, Section 15.5.18]"
-    },
-    {
-      "Value": "418",
-      "Description": "(Unused)",
-      "Reference": "[RFC9110, Section 15.5.19]"
     },
     {
       "Value": "421",
