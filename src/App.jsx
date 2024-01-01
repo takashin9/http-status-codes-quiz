@@ -58,6 +58,7 @@ function App() {
           <div>
             <h1>{question}</h1>
             <input type="text" value={userAnswer} onChange={handleInputChange} onKeyDown={handleKeyPress}/>
+            <h2>Press Enter to Skip or Submit</h2>
           </div>
         ) : (
           <div>
