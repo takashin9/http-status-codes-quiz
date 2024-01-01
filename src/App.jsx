@@ -62,8 +62,8 @@ function App() {
         ) : (
           <div>
             <h1>Result</h1>
-            <h2>{numberOfCorrectAnswer}</h2>
-            <h2>{numberOfIncorrectAnswer}</h2>
+            <h2>Correct : {numberOfCorrectAnswer}</h2>
+            <h2>Incorrect : {numberOfIncorrectAnswer}</h2>
           </div>
         )
       }
