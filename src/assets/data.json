@@ -20,11 +20,6 @@
       "Reference": "[RFC8297]"
     },
     {
-      "Value": "104-199",
-      "Description": "Unassigned",
-      "Reference": ""
-    },
-    {
       "Value": "200",
       "Description": "OK",
       "Reference": "[RFC9110, Section 15.3.1]"
@@ -70,19 +65,9 @@
       "Reference": "[RFC5842]"
     },
     {
-      "Value": "209-225",
-      "Description": "Unassigned",
-      "Reference": ""
-    },
-    {
       "Value": "226",
       "Description": "IM Used",
       "Reference": "[RFC3229]"
-    },
-    {
-      "Value": "227-299",
-      "Description": "Unassigned",
-      "Reference": ""
     },
     {
       "Value": "300",
@@ -128,11 +113,6 @@
       "Value": "308",
       "Description": "Permanent Redirect",
       "Reference": "[RFC9110, Section 15.4.9]"
-    },
-    {
-      "Value": "309-399",
-      "Description": "Unassigned",
-      "Reference": ""
     },
     {
       "Value": "400",
@@ -230,11 +210,6 @@
       "Reference": "[RFC9110, Section 15.5.19]"
     },
     {
-      "Value": "419-420",
-      "Description": "Unassigned",
-      "Reference": ""
-    },
-    {
       "Value": "421",
       "Description": "Misdirected Request",
       "Reference": "[RFC9110, Section 15.5.20]"
@@ -265,11 +240,6 @@
       "Reference": "[RFC9110, Section 15.5.22]"
     },
     {
-      "Value": "427",
-      "Description": "Unassigned",
-      "Reference": ""
-    },
-    {
       "Value": "428",
       "Description": "Precondition Required",
       "Reference": "[RFC6585]"
@@ -280,29 +250,14 @@
       "Reference": "[RFC6585]"
     },
     {
-      "Value": "430",
-      "Description": "Unassigned",
-      "Reference": ""
-    },
-    {
       "Value": "431",
       "Description": "Request Header Fields Too Large",
       "Reference": "[RFC6585]"
     },
     {
-      "Value": "432-450",
-      "Description": "Unassigned",
-      "Reference": ""
-    },
-    {
       "Value": "451",
       "Description": "Unavailable For Legal Reasons",
       "Reference": "[RFC7725]"
-    },
-    {
-      "Value": "452-499",
-      "Description": "Unassigned",
-      "Reference": ""
     },
     {
       "Value": "500",
@@ -350,11 +305,6 @@
       "Reference": "[RFC5842]"
     },
     {
-      "Value": "509",
-      "Description": "Unassigned",
-      "Reference": ""
-    },
-    {
       "Value": "510",
       "Description": "Not Extended (OBSOLETED)",
       "Reference": "[RFC2774][status-change-http-experiments-to-historic]"
@@ -363,10 +313,5 @@
       "Value": "511",
       "Description": "Network Authentication Required",
       "Reference": "[RFC6585]"
-    },
-    {
-      "Value": "512-599",
-      "Description": "Unassigned",
-      "Reference": ""
     }
   ]
