@@ -56,15 +56,17 @@ function App() {
       {
         !showResultPage ? (
           <div>
-            <h1>{question}</h1>
-            <input type="text" value={userAnswer} onChange={handleInputChange} onKeyDown={handleKeyPress}/>
-            <h2>Press Enter to Skip or Submit</h2>
+            <div className="question">{question}</div>
+            <div id="input">
+              <input type="text" value={userAnswer} onChange={handleInputChange} onKeyDown={handleKeyPress} autoFocus/>
+            </div>
+            <div className="discription">Press Enter to Skip or Submit</div>
           </div>
         ) : (
           <div>
-            <h1>Result</h1>
-            <h2>Correct : {numberOfCorrectAnswer}</h2>
-            <h2>Incorrect : {numberOfIncorrectAnswer}</h2>
+            <div className="result">Result</div>
+            <div className="discription">Correct : {numberOfCorrectAnswer}</div>
+            <div className="discription">Incorrect : {numberOfIncorrectAnswer}</div>
           </div>
         )
       }
